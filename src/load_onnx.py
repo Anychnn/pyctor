@@ -7,12 +7,12 @@ import numpy as  np
 from transformers import AutoTokenizer, AutoModelForMaskedLM, AutoModelWithLMHead
 import time
 # model_path="bert_fp32.onnx"
-model_path="/Users/bytedance/Documents/workspace/TurboTransformers/model_m.quant.onnx"
+model_path="/Users/bytedance/Documents/workspace/pyctor/models/ncnn/corrector.quant.onnx"
 # model_path="model.onnx"
 # model_path="model_m.quant.onnx"
 # model_path="/opt/tiger/bytedseq/example/bert.opt.quant.onnx"
 
-token_model_path="/Users/bytedance/Downloads/csc/tmp"
+token_model_path="/Users/bytedance/Documents/workspace/pyctor/models/tokenizer"
 tokenizer = AutoTokenizer.from_pretrained(token_model_path)
 
 

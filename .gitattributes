@@ -1,2 +1,2 @@
 models/ncnn filter=lfs diff=lfs merge=lfs -text
-models/ncnn/model_m.quant.onnx filter=lfs diff=lfs merge=lfs -text
+models/ncnn/corrector.quant.onnx filter=lfs diff=lfs merge=lfs -text
